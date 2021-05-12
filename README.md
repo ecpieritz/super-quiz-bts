@@ -11,7 +11,7 @@
 ---
 
 ## 📖 About
-<p>Quiz created as a challenge of module 14 of the Vue.js.</p>
+<p>Quiz created as a challenge of module 14 of the Vue.js course.</p>
 
 ---
 
