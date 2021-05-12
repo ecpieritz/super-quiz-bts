@@ -1,12 +1,26 @@
 <template>
 	<div id="app">
-		<h1>Super Quiz BT</h1>
+		<h1>Super Quiz BTS</h1>
+		<Question v-if="questionMode" :question="questions[currentQuestion]" />
+		<Result v-else :result="result" />
 	</div>
 </template>
 
 <script>
-export default {
+import questions from './util/questions'
+import Question from './components/Question'
+import Result from './components/Result'
 
+export default {
+	components: {Question, Result},
+	data(){
+		return{
+			result: false,
+			questionMode: true,
+			questions,
+			currentQuestion: 0,
+		}
+	}
 }
 </script>
 
@@ -22,7 +36,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	text-align: center;
-
 	display: flex;
 	flex-direction: column;
 	align-items: center;

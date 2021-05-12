@@ -29,14 +29,13 @@ export default {
         width: 70%;
         border-radius: 20px;
         font-size: 2.5rem;
-
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
 
     ul.answers {
-        font-size: 2rem;
+        font-size: 1.5rem;
         padding: 0;
         display: flex;
         justify-content: space-around;
