@@ -2,9 +2,11 @@
 
 ## 🖥 Preview
 <p align = "center">
-   <img src = "https://github.com/ecpieritz" width = "700">
+   <img src = "https://github.com/ecpieritz/super-quiz-bts/blob/main/public/img/super-quiz-bts-print-1.jpg?raw=true" width = "800">
 </p>
-<p al
+<p align = "center">
+   <img src = "https://github.com/ecpieritz/super-quiz-bts/blob/main/public/img/super-quiz-bts-print-2.jpg?raw=true" width = "800">
+</p>
 
 ---
 
