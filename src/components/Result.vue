@@ -2,6 +2,7 @@
     <div class="result" :class="{wrong: !result}">
         <span v-if="result">Correct answer! :)</span>
 		<span v-else>Wrong answer! :(</span>
+        <button @click="$emit('confirmed')">Next Question</button>
     </div>
 </template>
 
