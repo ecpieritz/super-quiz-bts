@@ -26,7 +26,7 @@
 
 ## 🚀 How to execute the project
 #### Clone the repository
-git clone https://github.com/EPieritz/super-quiz-bts.git
+git clone https://github.com/ecpieritz/super-quiz-bts.git
 
 #### Enter directory
 `cd super-quiz-bts`
